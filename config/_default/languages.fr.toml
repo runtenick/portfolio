@@ -1,0 +1,28 @@
+languageCode = "fr"
+languageName = "French"
+weight = 2
+title = "Portfolio"
+
+[params]
+  displayName = "FR"
+  isoCode = "fr"
+  rtl = false
+  dateFormat = "2 January 2006"
+  # logo = "img/mico.jpg"
+  # secondaryLogo = "img/secondary-logo.png"
+  # description = "My awesome website"
+  # copyright = "Copy, _right?_ :thinking_face:"
+
+ [author]
+   name = "Nicolas Franco"
+   image = "img/mico.jpg"
+   headline = "Développeur  Informatique"
+   bio = "J'adore faire des applications."
+   links = [
+     { email = "mailto:runtenick2@gmail.com" },
+     { github = "https://github.com/runtenick" },
+     { linkedin = "https://fr.linkedin.com/in/nicolas-franco-617b60229" },
+#     { twitch = "https://twitch.tv/username" },
+#     { x-twitter = "https://twitter.com/username" },
+#     { youtube = "https://youtube.com/username" },
+   ]

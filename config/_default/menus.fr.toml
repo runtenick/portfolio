@@ -1,0 +1,13 @@
+[[main]]
+  name = "Moi"
+  pageRef = "posts"
+  weight = 10
+
+[[main]]
+  name = "Projets"
+  weight = 20
+
+[[main]]
+  name = "CV"
+  pageRef = "education"
+  weight = 30

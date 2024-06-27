@@ -11,7 +11,7 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "About Meeee"
+  name = "About Me"
   pageRef = "posts"
   weight = 10
 
@@ -20,12 +20,9 @@
   weight = 20
 
 [[main]]
-  name = "Education"
+  name = "Resume"
+  pageRef = "education"
   weight = 30
-
-[[main]]
-  name = "Career"
-  weight = 40
 
 #[[main]]
 #  name = "example sub-menu 1"
@@ -70,8 +67,3 @@
 #   name = "Tags"
 #   pageRef = "tags"
 #   weight = 10
-
-# [[footer]]
-#   name = "Categories"
-#   pageRef = "categories"
-#   weight = 20
