@@ -7,6 +7,11 @@ trigger:
     - push
 
 steps:
+  - name: initialize-submodules
+    image: alpine/git
+    commands:
+      - git submodule update --init --recursive
+
   - name: build
     image: klakegg/hugo:ext
     volumes:
@@ -14,6 +19,7 @@ steps:
         path: /docs
     commands:
       - hugo
+    depends_on: [initialize-submodules]
 
   - name: hadolint-check
     image: hadolint/hadolint:latest-debian
