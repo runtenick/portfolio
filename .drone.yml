@@ -13,7 +13,7 @@ steps:
       - git submodule update --init --recursive
 
   - name: build
-    image: klakegg/hugo:ext
+    image: betterweb/hugo:latest
     volumes:
       - name: docs
         path: /docs
