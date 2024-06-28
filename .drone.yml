@@ -18,6 +18,7 @@ steps:
       - name: docs
         path: /docs
     commands:
+      - hugo version
       - hugo
     depends_on: [initialize-submodules]
 
