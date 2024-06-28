@@ -1,5 +1,5 @@
 # Step 1: Build the Hugo site
-FROM betterweb/hugo:latest AS builder
+FROM hugo:extended-0.121.1-20-1 AS builder
 
 WORKDIR /src
 COPY . .
