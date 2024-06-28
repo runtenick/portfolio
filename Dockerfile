@@ -1,5 +1,5 @@
 # Step 1: Build the Hugo site
-FROM klakegg/hugo:ext AS builder
+FROM betterweb/hugo:latest AS builder
 
 WORKDIR /src
 COPY . .
