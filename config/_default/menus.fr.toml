@@ -1,6 +1,6 @@
 [[main]]
   name = "Moi"
-  pageRef = "posts"
+  pageRef = "about"
   weight = 10
 
 [[main]]
