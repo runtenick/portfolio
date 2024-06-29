@@ -8,6 +8,11 @@ showDate: false
 layoutBackgroundHeaderSpace: false
 
 ---
+
+{{< button href="/containers/nicolasfranco-portfolio/cv.pdf" target="_blank" >}}
+💾 PDF
+{{< /button >}}
+
 ## Experience
 <table>
     <thead>
@@ -21,20 +26,14 @@ layoutBackgroundHeaderSpace: false
     </thead>
     <tbody>
         <tr>
-            <td rowspan=2><img class="customEntitityLogo" src="cgi.png"/></td>
-            <td rowspan=2><a href="https://www.docker.com/" target="_blank">CGI</a></td>
-        </tr>
-        <tr>
-            <td>Apprentice, <b>working for michelin</b></td>
+            <td rowspan="2"><img class="customEntitityLogo" src="cgi.png"/></td>
+            <td rowspan="2"><a href="https://www.cgi.com/en" target="_blank">CGI</a></td>
+            <td>Apprentice, <b>working for Michelin</b></td>
             <td>2023 - 2024</td>
             <td>Clermont-Ferrand, FR</td>
         </tr>
         <tr>
-            <td rowspan=4><img class="customEntitityLogo" src="cgi.png"/></td>
-            <td rowspan=4><a href="https://www.docker.com/" target="_blank">CGI</a></td>
-        </tr>
-        <tr>
-            <td>Intern, <b>working for michelin</b></td>
+            <td>Intern, <b>working for Michelin</b></td>
             <td>2023</td>
             <td>Clermont-Ferrand, FR</td>
         </tr>
@@ -57,20 +56,16 @@ layoutBackgroundHeaderSpace: false
     </thead>
     <tbody>
         <tr>
-            <td rowspan=2><img class="customEntitityLogo" src="uca.png"/></td>
-            <td rowspan=2><a href="https://www.lyceemoliere.com.br/" target="_blank">Université Clermont Auvergne</a></td>
-        </tr>
-        <tr>
+            <td rowspan="1"><img class="customEntitityLogo" src="uca.png"/></td>
+            <td rowspan="1"><a href="https://www.uca.fr/" target="_blank">Université Clermont Auvergne</a></td>
             <td>Computer Science Bachelor</td>            
             <td>2021 - 2024</td>
             <td>Clermont-Ferrand, FR</td>
         </tr>
         <tr>
-            <td rowspan=4><img class="customEntitityLogo" src="lycee.jpeg"/></td>
-            <td rowspan=4><a href="https://www.lyceemoliere.com.br/" target="_blank">Lycee Molière, </br> Rio</a></td>
-        </tr>
-        <tr>
-            <td>Baccalauréat in Sciences <i>(honors: "Very Good")</i> </br> Class Representative </td>            
+            <td rowspan="2"><img class="customEntitityLogo" src="lycee.jpeg"/></td>
+            <td rowspan="2"><a href="https://www.lyceemoliere.com.br/" target="_blank">Lycée Molière, Rio</a></td>
+            <td>Baccalauréat in Sciences, <i>honors: "Very Good"</i><br> Class Representative </td>            
             <td>2020 - 2021</td>
             <td>Rio de Janeiro, BR</td>
         </tr>
