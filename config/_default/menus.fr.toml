@@ -5,6 +5,7 @@
 
 [[main]]
   name = "Projets"
+  pageRef = "projects"
   weight = 20
 
 [[main]]

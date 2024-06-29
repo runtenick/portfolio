@@ -42,7 +42,7 @@ highlightCurrentMenuArea = true
   showRecentItems = 5
   showMoreLink = false
   showMoreLinkDest = "/posts"
-  cardView = false
+  cardView = true
   cardViewScreenWidth = false
   layoutBackgroundBlur = false # only used when layout equals background
 
@@ -58,7 +58,7 @@ highlightCurrentMenuArea = true
   heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
   layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
-  showBreadcrumbs = false
+  showBreadcrumbs = true
   showDraftLabel = true
   showEdit = false
   # editURL = "https://github.com/username/repo/"
@@ -78,20 +78,20 @@ highlightCurrentMenuArea = true
   showZenMode = false
 
 [list]
-  showHero = false
-  # heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  showHero = true
+  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
-  layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
-  showBreadcrumbs = false
-  showSummary = false
+  layoutBackgroundHeaderSpace = false # only used when heroStyle equals background
+  showBreadcrumbs = true
+  showSummary = true
   showViews = false
   showLikes = false
   showTableOfContents = false
-  showCards = false
-  orderByWeight = false
-  groupByYear = true
-  cardView = false
-  cardViewScreenWidth = false
+  showCards = true
+  orderByWeight = true
+  groupByYear = false
+  cardView = true
+  cardViewScreenWidth = true
   constrainItemsWidth = false
 
 [sitemap]
@@ -99,23 +99,23 @@ highlightCurrentMenuArea = true
 
 [taxonomy]
   showTermCount = true
-  showHero = false
-  # heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
-  showBreadcrumbs = false
+  showHero = true
+  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  showBreadcrumbs = true
   showViews = false
   showLikes = false
   showTableOfContents = false
   cardView = false
 
 [term]
-  showHero = false
+  showHero = true
   # heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
-  showBreadcrumbs = false
+  showBreadcrumbs = true
   showViews = false
   showLikes = false
   showTableOfContents = true
   groupByYear = false
-  cardView = false
+  cardView = true
   cardViewScreenWidth = false
 
 [firebase]
