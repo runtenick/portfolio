@@ -1,16 +1,16 @@
 ---
 title: "Projects"
-date: 2022-06-13T20:55:37+01:00
-
-showDate : true
-showDateUpdated : true
-showHeadingAnchors : true
-showPagination : true
-showReadingTime : true
-showTableOfContents : true
-showTaxonomies : true
-showWordCount : true
-showSummary : true
-sharingLinks : true
 ---
 
+<!-- {{< chart >}}
+type: 'bar',
+data: {
+  labels: ['TypeScript', 'Swift', 'C#', 'Dart', 'Python'],
+  datasets: [{
+    label: '# of Projects',
+    data: [2, 2, 3, 2, 2],
+  }]
+}
+{{< /chart >}}
+
+</br> -->
